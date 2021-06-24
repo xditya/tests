@@ -1,0 +1,15 @@
+---
+application:
+  name: "tests"
+  project: "testproj"
+  organization: "QoveryCommunity"
+databases:
+- type: "REDIS"
+  name: "ultroid"
+  version: "6"
+routers:
+- name: "main-tests"
+  routes:
+  - application_name: "tests"
+    paths:
+    - "/*"
