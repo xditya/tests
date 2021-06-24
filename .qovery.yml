@@ -1,7 +1,0 @@
-application:
-  name: TestAppName
-  project: TestProjectName
-databases:
-- type: redis
-  version: 6
-  name: test-redis
