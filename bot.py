@@ -12,7 +12,7 @@ logging.info("Starting...")
 apiid = 6
 apihash = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
 try:
-    bottoken = config("BOT_TOKEN")
+    bottoken = "1852737276:AAH5fZFquSixmCA8tIQzjjeNv_DZvqBEBEo"  # config("BOT_TOKEN")
 except:
     logging.info("Environment vars are missing! Kindly recheck.")
     logging.info("Bot is quiting...")
